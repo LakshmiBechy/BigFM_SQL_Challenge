@@ -5,46 +5,46 @@ The challenge is to craft SQL queries to extract insights from the 92.7 BIG FM r
 
 ### Tables
   - Stations Table:
-    StationID (INT)
-    StationName (VARCHAR(255))
-    Location (VARCHAR(255))
-    Frequency (DECIMAL(5,2))
+    StationID (INT),
+    StationName (VARCHAR(255)),
+    Location (VARCHAR(255)),
+    Frequency (DECIMAL(5,2)),
     LaunchDate (DATE)
     
 -   Hosts Table:
-    HostID (INT)
-    HostName (VARCHAR(255))
-    ShowCount (INT)
+    HostID (INT),
+    HostName (VARCHAR(255)),
+    ShowCount (INT),
     JoinDate (DATE)
 
 - Shows Table:
-    ShowID (INT)
-    ShowName (VARCHAR(255))
-    HostID (INT)
-    StationID (INT)
+    ShowID (INT),
+    ShowName (VARCHAR(255)),
+    HostID (INT),
+    StationID (INT),
     LaunchDate (DATE)
 
 - Partnerships Table:
-  PartnershipID (INT)
-  PartnerName (VARCHAR(255))
-  PartnershipType (VARCHAR(100))
-  StartDate (DATE)
+  PartnershipID (INT),
+  PartnerName (VARCHAR(255)),
+  PartnershipType (VARCHAR(100)),
+  StartDate (DATE),
   EndDate (DATE)
   
 - ShowPartnerships Table:
-  ShowID (INT)
+  ShowID (INT),
   PartnershipID (INT)
 
 - Awards Table:
-  AwardID (INT)
-  AwardName (VARCHAR(255))
-  Year (INT)
+  AwardID (INT),
+  AwardName (VARCHAR(255)),
+  Year (INT),
   ShowID (INT)
 
 - OnlinePresence Table:
-  PresenceID (INT)
-  PlatformName (VARCHAR(255))
-  Link (VARCHAR(255))
+  PresenceID (INT),
+  PlatformName (VARCHAR(255)),
+  Link (VARCHAR(255)),
   LaunchDate (DATE)
  
 
