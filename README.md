@@ -60,6 +60,14 @@ The challenge is to craft SQL queries to extract insights from the 92.7 BIG FM r
 - 9)Retrieve the stations in the "South" region launched after 2010?
 - 10)Rank hosts based on the number of shows they have hosted?
 
+### Concepts Used
+    - Aggregated Functions: SUM, COUNT
+    - Filtering Rows: WHERE
+    - Combining Tables: JOINS
+    - Grouping Results: GROUP BY
+    - Sorting Results: ORDER BY
+    - Rank Functions
+
 ### Additional Queries performed:
    - Explored subqueries - Years with the highest number of awards
    - Advanced Joins - To list out award winning shows detailing their partnership information
